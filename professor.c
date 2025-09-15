@@ -13,7 +13,7 @@ int main(void) {
 
     // Sizes
     printf("Size of Professor structure is %zu\n", sizeof(struct Professor));
-    printf("Size of ProfessorArr1 array is %zu\n", sizeof(ProffessorArr1));
+    printf("Size of ProfessorArr1 array is %zu\n", sizeof(ProffessorArr1)); 
 
     // Dynamic array for 200 professors
     struct Professor *ProffessorArr2;
@@ -26,7 +26,7 @@ int main(void) {
     }
 
     
-    printf("Size of ProfessorArr2 array is %zu\n", 200 * sizeof(struct Professor));
+    printf("Size of ProfessorArr2 array is %zu\n", sizeof(ProffessorArr2));
 
     // Addresses
     printf("Address of ProfessorArr1[0] is %p\n",  (void*)&ProffessorArr1[0]);
